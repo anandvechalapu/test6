@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Trigger>
+    <UserStory>
+        <Object>Admin Survey</Object>
+        <Requirement>
+            As an Admin, I want to create surveys with basic information, target users, criteria fields, and question and answer sections, so that I can get user feedback and analyze their responses to improve our platform.
+        </Requirement>
+        <AcceptanceCriteria>
+            <Criteria>The Admin should be able to create a survey from the Admin panel.</Criteria>
+            <Criteria>The Admin should be able to select the Domain as India, USA, or Both from a dropdown list.</Criteria>
+            <Criteria>The Admin should be able to add a Title and Description for the survey.</Criteria>
+            <Criteria>The Admin should be able to set the Delay Time in seconds for the survey to appear.</Criteria>
+            <Criteria>The Admin should be able to set the Status of the survey as Active or Inactive from a dropdown list.</Criteria>
+            <Criteria>The Admin should be able to set the Survey State as Not Started, Started, Cancelled, or Completed from a dropdown list.</Criteria>
+            <Criteria>The Admin should be able to select the Page Name or Location as Home, Profile, Search Post, Post detail, or Webinar Detail from a dropdown list.</Criteria>
+            <Criteria>The Admin should be able to set the Start and End dates for the survey.</Criteria>
+            <Criteria>The Admin should be able to select Target Users from All Users or Exclude Users from a dropdown list.</Criteria>
+            <Criteria>If the Admin selects Exclude Users, they should be able to create criteria to whom the survey will be shown.</Criteria>
+            <Criteria>If the Admin selects All Users, they should be able to create criteria to whom the survey will be shown.</Criteria>
+            <Criteria>The Admin should be able to select the Specialty for the survey.</Criteria>
+            <Criteria>The Admin should be able to select the Preferences for the survey.</Criteria>
+            <Criteria>If the Admin selects India, they should be able to select the country to show the survey to.</Criteria>
+            <Criteria>If the Admin selects USA, they should be able to select the region and city combination to show the survey to.</Criteria>
+            <Criteria>The Admin should be able to send the survey to specific users by manually selecting them from a list of users.</Criteria>
+            <Criteria>The Admin should be able to set up to 20 questions with a title and answer type of Single Choice, Multi Choice, Text, or Rating.</Criteria>
+            <Criteria>For Rating based answer types, the Admin should be able to provide a range of rating between 0 and 5.</Criteria>
+            <Criteria>The Admin should be able to update survey details unless the survey has started.</Criteria>
+            <Criteria>The Admin should be able to cancel the survey in mid-after it has started.</Criteria>
+            <Criteria>The Admin should be able to delete the survey unless the survey has started.</Criteria>
+            <Criteria>The Admin should be able to view the survey report from the Admin panel.</Criteria>
+            <Criteria>The Admin should see one view icon (Report) in the Admin panel in the survey listing.</Criteria>
+            <Criteria>Upon clicking the view icon, the system should redirect the Admin to the survey report page.</Criteria>
+            <Criteria>The Admin should be able to check user response on particular questions.</Criteria>
+            <Criteria>If a question is Single/Multi choice/Text, the system should show the count of responses for a particular option.</Criteria>
+            <Criteria>Upon clicking the answer count, the system should show user details who respond (User basic details) in a separate popup box, including Name, Email, Phone, Speciality, and IP Address.</Criteria>
+            <Criteria>If a question is Rating type, the system should show the count of responses for a particular rating (1 to 3 or 5).</Criteria>
+            <Criteria>Upon clicking the answer count, the system should show user details who respond (User basic details) in a separate popup box, including Name, Email, Phone, Speciality, and IP Address.</Criteria>
+        </AcceptanceCriteria>
+    </UserStory>
+</Trigger>
